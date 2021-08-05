@@ -1,0 +1,6 @@
+def f(l):
+    dict = {i:l.count(i) for i in l}
+    for i in dict:
+        if dict[i] == 1:
+            return i
+    return 'There is no repeated element'
